@@ -199,7 +199,7 @@ export function CarDetails({ car, testDriveInfo }) {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-6">
             <div className="flex items-center gap-2">
               <Gauge className="text-gray-500 h-5 w-5" />
-              <span>{car.mileage.toLocaleString()} miles</span>
+              <span>{car.mileage.toLocaleString("en-US")} miles</span>
             </div>
             <div className="flex items-center gap-2">
               <Fuel className="text-gray-500 h-5 w-5" />
@@ -358,7 +358,7 @@ export function CarDetails({ car, testDriveInfo }) {
             <div className="flex justify-between py-2 border-b">
               <span className="text-gray-600">Mileage</span>
               <span className="font-medium">
-                {car.mileage.toLocaleString()} miles
+                {car.mileage.toLocaleString("en-US")} miles
               </span>
             </div>
             <div className="flex justify-between py-2 border-b">

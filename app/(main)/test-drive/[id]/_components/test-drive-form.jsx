@@ -242,14 +242,14 @@ export function TestDriveForm({ car, testDriveInfo }) {
             </h3>
 
             <div className="mt-2 text-xl font-bold text-blue-600">
-              ${car.price.toLocaleString()}
+              ${car.price.toLocaleString("en-US")}
             </div>
 
             <div className="mt-4 text-sm text-gray-500">
               <div className="flex justify-between py-1 border-b">
                 <span>Mileage</span>
                 <span className="font-medium">
-                  {car.mileage.toLocaleString()} miles
+                  {car.mileage.toLocaleString("en-US")} miles
                 </span>
               </div>
               <div className="flex justify-between py-1 border-b">
