@@ -15,9 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <head>
-          <link rel="icon" href="/logo-white.png" sizes="any" />
-        </head>
+        {/* Icons come from app/favicon.ico, app/icon.svg and app/apple-icon.png */}
         <body className={`${inter.className}`}>
           <Header />
           <main className="min-h-screen">{children}</main>

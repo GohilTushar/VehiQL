@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="streak" gradientUnits="userSpaceOnUse" x1="1" y1="0" x2="15" y2="0">
+      <stop offset="0" stop-color="#E8741E" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#E8741E"/>
+      <stop offset="1" stop-color="#E5182F"/>
+    </linearGradient>
+    <linearGradient id="glass" gradientUnits="userSpaceOnUse" x1="27" y1="0" x2="50" y2="0">
+      <stop offset="0" stop-color="#1A86B8"/>
+      <stop offset="1" stop-color="#4DB8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand navy tile (matches the hero background) -->
+  <rect width="64" height="64" rx="14" fill="#16223C"/>
+
+  <g transform="translate(0 -2.5)">
+  <!-- Speed streaks, as in the logo -->
+  <path d="M3 31.5 H14" stroke="url(#streak)" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M1.5 36 H9.5" stroke="url(#streak)" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M4 40.5 H9.5" stroke="url(#streak)" stroke-width="2.6" stroke-linecap="round"/>
+
+  <!-- Car body (side profile, facing right like the logo) -->
+  <path d="M12 41.5 V35.5 C12 32.5 13.8 31.2 17 30.6 L24 29.3 C28 23.6 32 21 38.5 21 C44.5 21 48.5 23.5 52.5 28.6 L57.5 30 C60 30.7 61.5 32.4 61.5 35 V41.5 Z" fill="#FFFFFF"/>
+
+  <!-- Windows -->
+  <path d="M27 29.2 C30 25 33 23.4 37.4 23.3 V29.2 Z" fill="url(#glass)"/>
+  <path d="M39.6 23.3 C43.5 23.4 46.4 25.2 49.5 28.9 L39.6 29.2 Z" fill="url(#glass)"/>
+
+  <!-- Headlight and tail light -->
+  <path d="M56 31.7 L60.3 32.7 C60.7 33.5 60.6 34.1 60 34.3 L56.4 33.7 Z" fill="#1A86B8"/>
+  <rect x="12" y="33" width="2.6" height="2.6" rx="0.8" fill="#E5182F"/>
+
+  <!-- Wheels: navy arch gap, tyre, hub -->
+  <circle cx="22" cy="41.5" r="6.8" fill="#16223C"/>
+  <circle cx="51" cy="41.5" r="6.8" fill="#16223C"/>
+  <circle cx="22" cy="41.5" r="5" fill="#FFFFFF"/>
+  <circle cx="51" cy="41.5" r="5" fill="#FFFFFF"/>
+  <circle cx="22" cy="41.5" r="1.9" fill="#16223C"/>
+  <circle cx="51" cy="41.5" r="1.9" fill="#16223C"/>
+  </g>
+</svg>
